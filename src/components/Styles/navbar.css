@@ -17,12 +17,10 @@
     }
 }
 .navbar{
-	transition: 0.5 ease-in width;
+	transition: 0.3 ease-in width;
 }
 
 .navbar.isactive{
 	opacity: 0.95;
-	margin-left: 15rem;
-	margin-right: 15rem;
-	transition: 0.5s ease-in;
+	transition: 0.3s ease-in;
 }

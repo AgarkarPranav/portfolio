@@ -18,7 +18,7 @@ function Navbar() {
 
   return (
 	<div className="Navbar">
-		<nav className={navbar ? 'navbar isactive fixed-top p-0.5 m-8 rounded-lg navbar-expand-lg navbar-dark bg-gray-600 shadow-md hover:shadow-2xl transition duration-300 ease-in-out' : 'navbar fixed-top p-0.5 m-8 rounded-lg navbar-expand-lg navbar-dark bg-gray-700 shadow-md hover:shadow-2xl transition duration-300 ease-in-out'} >
+		<nav className={navbar ? 'navbar isactive fixed-top p-0.5 m-8 rounded-lg navbar-expand-lg navbar-dark bg-gray-600 shadow-md xl:mx-60 md:mx-40 sm:mx-20 hover:shadow-2xl transition duration-300 ease-in-out' : 'navbar fixed-top p-0.5 m-8 rounded-lg navbar-expand-lg navbar-dark shadow-md hover:shadow-2xl transition duration-300 ease-in-out bg-gradient-to-r from-gray-700 to-gray-600'} >
 		  <div className="container-fluid">
 			<a className="navbar-brand text-white navbar-brand-centered" href="http://localhost:3000/#">Navbar</a>
 			<button className="navbar-toggler p-1" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
